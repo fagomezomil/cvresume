@@ -55,7 +55,6 @@ Actualmente trabajo en el **Ente Tucumán Turismo** del Gobierno de Tucumán, Ar
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![Adobe Illustrator](https://img.shields.io/badge/Adobe_Illustrator-FF9A00?style=for-the-badge&logo=adobe-illustrator&logoColor=white)
 ![Adobe Photoshop](https://img.shields.io/badge/Adobe_Photoshop-31A8FF?style=for-the-badge&logo=adobe-photoshop&logoColor=white)
 ![Adobe InDesign](https://img.shields.io/badge/Adobe_InDesign-FF3366?style=for-the-badge&logo=adobe-indesign&logoColor=white)
@@ -145,7 +144,6 @@ Currently working at **Ente Tucumán Turismo** (Government of Tucumán, Argentin
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![Adobe Illustrator](https://img.shields.io/badge/Adobe_Illustrator-FF9A00?style=for-the-badge&logo=adobe-illustrator&logoColor=white)
 ![Adobe Photoshop](https://img.shields.io/badge/Adobe_Photoshop-31A8FF?style=for-the-badge&logo=adobe-photoshop&logoColor=white)
 ![Adobe InDesign](https://img.shields.io/badge/Adobe_InDesign-FF3366?style=for-the-badge&logo=adobe-indesign&logoColor=white)
@@ -213,7 +211,7 @@ This portfolio is built with:
 
 ```bash
 # Clone the repository
-git clone https://github.com/federicoalvarez/activo-digital-portfolio.git
+git clone https://github.com/fagomezomil/cvresume.git
 
 # Navigate to directory
 cd activo-digital-portfolio
@@ -236,10 +234,10 @@ npm run build
 
 ## 📧 Contact
 
-- **Email:** contacto@activodigital.com
+- **Email:** fagomezomil@gmail.com
 - **LinkedIn:** [Federico Alvarez](https://linkedin.com/in/federicoalvarez)
 - **Behance:** [Activo Digital](https://behance.net/activodigital)
-- **GitHub:** [@federicoalvarez](https://github.com/federicoalvarez)
+- **GitHub:** [@federicoalvarez](https://github.com/fagomezomil)
 
 ---
 
