@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" class="flex flex-col items-center justify-center bg-sky-950 text-white">
   <img src="public/images/adlogoW.svg" alt="Activo Digital Logo" width="200"/>
 
   <h1>Activo Digital - Portfolio</h1>
@@ -214,7 +214,7 @@ This portfolio is built with:
 git clone https://github.com/fagomezomil/cvresume.git
 
 # Navigate to directory
-cd activo-digital-portfolio
+cd cvresume
 
 # Install dependencies
 npm install
@@ -235,9 +235,8 @@ npm run build
 ## 📧 Contact
 
 - **Email:** fagomezomil@gmail.com
-- **LinkedIn:** [Federico Alvarez](https://linkedin.com/in/federicoalvarez)
-- **Behance:** [Activo Digital](https://behance.net/activodigital)
-- **GitHub:** [@federicoalvarez](https://github.com/fagomezomil)
+- **LinkedIn:** [Federico Alvarez](www.linkedin.com/in/federico-álvarez-gómez-omil-739768215)
+- **GitHub:** [@fagomezomil](https://github.com/fagomezomil)
 
 ---
 
@@ -246,11 +245,3 @@ npm run build
 This project is under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
-
-<div align="center">
-
-  **Made with ❤️ in Tucumán, Argentina**
-
-  ![Open to Work](https://img.shields.io/badge/Open_to_Work-Yes!-brightgreen?style=for-the-badge)
-
-</div>
