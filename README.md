@@ -1,5 +1,5 @@
-<div align="center" class="flex flex-col items-center justify-center bg-sky-950 text-white">
-  <img src="public/images/adlogoW.svg" alt="Activo Digital Logo" width="200"/>
+<div align="center">
+  <img src="public/images/adlogoB.png" alt="Activo Digital Logo" width="200"/>
 
   <h1>Activo Digital - Portfolio</h1>
 
