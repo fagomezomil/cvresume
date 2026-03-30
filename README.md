@@ -1,7 +1,7 @@
 <div align="center">
   <img src="public/images/adlogoB.png" alt="Activo Digital Logo" width="200"/>
 
-  <h1>Activo Digital - Portfolio</h1>
+  <h1>Portfolio / Resume</h1>
 
   <p><strong>Diseño estratégico y soluciones visuales para fortalecer tu marca</strong></p>
   <p><strong>Strategic design and visual solutions to strengthen your brand</strong></p>
