@@ -66,10 +66,10 @@ export default function Footer({ items = [], onNavigate, onOpenCategory }) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12">
           {/* Navigation */}
           <motion.div variants={staggerItem}>
-            <h3 className="text-sm font-semibold uppercase tracking-wider mb-4 text-slate-300">
+            <h3 className="text-sm font-semibold uppercase tracking-wider mb-4 text-slate-300 text-center md:text-left">
               {t('footer.navegacion')}
             </h3>
-            <ul className="space-y-2">
+            <ul className="space-y-2  text-center md:text-left">
               {navigationItems.map((link, index) => (
                 <li key={`nav-${index}-${link.id}`}>
                   <button
@@ -85,10 +85,10 @@ export default function Footer({ items = [], onNavigate, onOpenCategory }) {
 
           {/* Services - Categories */}
           <motion.div variants={staggerItem}>
-            <h3 className="text-sm font-semibold uppercase tracking-wider mb-4 text-slate-300">
+            <h3 className="text-sm font-semibold uppercase tracking-wider mb-4 text-slate-300  text-center md:text-left">
               {t('footer.servicios')}
             </h3>
-            <ul className="space-y-2">
+            <ul className="space-y-2  text-center md:text-left">
               {randomCategories.length > 0 ? (
                 randomCategories.map((category, index) => (
                   <li key={`cat-${index}-${category}`}>
@@ -121,7 +121,7 @@ export default function Footer({ items = [], onNavigate, onOpenCategory }) {
 
           {/* Map */}
           <motion.div variants={staggerItem} className="lg:col-span-2">
-            <h3 className="text-sm font-semibold uppercase tracking-wider mb-4 text-slate-300">
+            <h3 className="text-sm font-semibold uppercase tracking-wider mb-4 text-slate-300  text-center md:text-left">
               {t('footer.ubicacion')}
             </h3>
             <div className="rounded-lg overflow-hidden h-40 bg-slate-800">
@@ -139,10 +139,10 @@ export default function Footer({ items = [], onNavigate, onOpenCategory }) {
           </motion.div>
 
           {/* Brand & Contact */}
-          <motion.div variants={staggerItem} className="lg:col-span-1 flex flex-col lg:items-end">
+          <motion.div variants={staggerItem} className="lg:col-span-1 flex flex-col items-center lg:items-end">
 
             {/* Contact Info */}
-            <div className="space-y-3 text-right flex lg:flex-col lg:items-end">
+            <div className="space-y-3 md:text-center flex flex-col lg:items-end">
               <a
                 href={`tel:${contactInfo.phone}`}
                 className="flex gap-3 text-sm text-slate-300 hover:text-white transition-colors "
@@ -182,7 +182,7 @@ export default function Footer({ items = [], onNavigate, onOpenCategory }) {
       </motion.div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-slate-800">
+      <div className="border-t border-slate-800 text-center">
         <div className="max-w-7xl mx-auto px-6 py-6">
           <div className="flex justify-center">
             <p className="text-sm text-slate-500">

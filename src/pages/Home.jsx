@@ -175,7 +175,7 @@ export default function Home() {
       /></div>
 
       {/* Mobile Content - Visible only on mobile */}
-      <div className="lg:hidden pt-16">
+      <div className="lg:hidden pt-16 bg-sky-950">
         {/* Mobile Header Section */}
         <div className="gradient-primary px-4 py-6">
           {/* Dynamic Title */}
