@@ -156,15 +156,15 @@ export default function ModalWork({ item, onClose, filteredItems = [], currentIn
         exit={{ opacity: 0 }}
         transition={{ duration: 0.2 }}
         onClick={onClose}
-        className="fixed inset-0 bg-black/90 backdrop-blur-md"
-        style={{ zIndex: 40 }}
+        className="fixed inset-0 bg-black/80 backdrop-blur-md"
+        style={{ zIndex: 50 }}
       />
 
       {/* Modal Container - Full viewport */}
       <div
         key="modal-container"
         className="fixed inset-0 flex overflow-y-auto lg:overflow-hidden"
-        style={{ zIndex: 50 }}
+        style={{ zIndex: 60 }}
         onClick={onClose}
       >
         {/* Navigation Button - Left */}
