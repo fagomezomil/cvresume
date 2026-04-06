@@ -25,7 +25,9 @@ export default function ModalAddWork({ isOpen, onClose, onSave, editingItem, t, 
     date: '',
     img: [''],
     type: '',
-    url: ''
+    url: '',
+    nota: '',
+    notaEn: ''
   });
   const [alertConfig, setAlertConfig] = useState(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -40,7 +42,9 @@ export default function ModalAddWork({ isOpen, onClose, onSave, editingItem, t, 
       date: '',
       img: [''],
       type: '',
-      url: ''
+      url: '',
+      nota: '',
+      notaEn: ''
     });
   };
 
@@ -55,7 +59,9 @@ export default function ModalAddWork({ isOpen, onClose, onSave, editingItem, t, 
         date: editingItem.date || '',
         img: editingItem.img?.length > 0 ? editingItem.img : [''],
         type: editingItem.type || '',
-        url: editingItem.url || ''
+        url: editingItem.url || '',
+        nota: editingItem.nota || '',
+        notaEn: editingItem.notaEn || ''
       });
     } else {
       resetForm();
@@ -320,6 +326,34 @@ export default function ModalAddWork({ isOpen, onClose, onSave, editingItem, t, 
                 onChange={(e) => handleChange('url', e.target.value)}
                 className="w-full px-4 py-3 rounded-xl border border-neutral-200 bg-white focus:outline-none focus:ring-2 focus:ring-accent-teal/50 focus:border-accent-teal transition-all"
                 placeholder="https://..."
+              />
+            </motion.div>
+
+            {/* Nota - Spanish */}
+            <motion.div variants={inputVariants} initial="initial" animate="animate">
+              <label className="block text-sm font-medium text-neutral-700 mb-1.5">
+                {t('dashboard.nota')} (ES)
+              </label>
+              <textarea
+                value={formData.nota}
+                onChange={(e) => handleChange('nota', e.target.value)}
+                rows={2}
+                className="w-full px-4 py-3 rounded-xl border border-neutral-200 bg-white focus:outline-none focus:ring-2 focus:ring-accent-teal/50 focus:border-accent-teal transition-all resize-none"
+                placeholder={t('dashboard.notaPlaceholder')}
+              />
+            </motion.div>
+
+            {/* Nota - English */}
+            <motion.div variants={inputVariants} initial="initial" animate="animate">
+              <label className="block text-sm font-medium text-neutral-700 mb-1.5">
+                {t('dashboard.nota')} (EN)
+              </label>
+              <textarea
+                value={formData.notaEn}
+                onChange={(e) => handleChange('notaEn', e.target.value)}
+                rows={2}
+                className="w-full px-4 py-3 rounded-xl border border-neutral-200 bg-white focus:outline-none focus:ring-2 focus:ring-accent-teal/50 focus:border-accent-teal transition-all resize-none"
+                placeholder={t('dashboard.notaPlaceholderEn')}
               />
             </motion.div>
 

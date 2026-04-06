@@ -1,6 +1,6 @@
 import { forwardRef } from "react";
 import { motion } from "framer-motion";
-import { PiArrowRight } from "react-icons/pi";
+import { PiArrowRight, PiNote } from "react-icons/pi";
 import { useLanguage } from "../context/LanguageContext";
 import { getWorkTranslation, translateCategory } from "../utils/translations";
 
@@ -42,6 +42,7 @@ const WorkCard = forwardRef(function WorkCard({ item, index, filteredItems, setI
   // Get translated work name and description
   const workName = getWorkTranslation(item, 'workName', language);
   const description = getWorkTranslation(item, 'description', language);
+  const note = getWorkTranslation(item, 'nota', language);
   const category = translateCategory(item.type, language);
 
   return (
@@ -107,6 +108,9 @@ const WorkCard = forwardRef(function WorkCard({ item, index, filteredItems, setI
           <p className="text-sm text-neutral-400 mt-2 line-clamp-2">
             {description}
           </p>
+
+          {/* Note */}
+
 
           {/* View More Link */}
           <div className="flex items-center gap-1 mt-3 text-sm font-medium text-primary-500 group-hover:text-accent-teal transition-colors duration-200">

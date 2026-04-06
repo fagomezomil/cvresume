@@ -16,7 +16,8 @@ import {
   PiX,
   PiCheck,
   PiWarning,
-  PiSignOut
+  PiSignOut,
+  PiNote
 } from "react-icons/pi";
 import { staggerContainer, staggerItem, fadeInUp } from "../utils/animations";
 import { useLanguage } from "../context/LanguageContext";
@@ -269,6 +270,7 @@ const DashBoard = () => {
                 const isExpanded = expandedId === item.id;
                 const workName = getWorkTranslation(item, 'workName', language);
                 const description = getWorkTranslation(item, 'description', language);
+                const note = getWorkTranslation(item, 'nota', language);
                 const category = translateCategory(item.type, language);
 
                 return (
@@ -361,6 +363,16 @@ const DashBoard = () => {
                                 </a>
                               )}
                             </div>
+
+                            {/* Note */}
+                            {note && (
+                              <div className="flex items-start gap-2 mt-3 p-2 bg-amber-50 rounded-lg border border-amber-100">
+                                <PiNote className="text-amber-500 text-base flex-shrink-0 mt-0.5" />
+                                <p className="text-sm text-amber-700">
+                                  {note}
+                                </p>
+                              </div>
+                            )}
 
                             {/* Images Preview */}
                             {item.img && item.img.length > 1 && (
